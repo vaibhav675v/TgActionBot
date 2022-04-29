@@ -23,7 +23,9 @@ print("Nitric xD...")
 
 TeamxD = TelegramClient('TeamxD', Var.API_ID, Var.API_HASH).start(bot_token=Var.TOKEN)
 
-
+BDOP = []
+for x in Var.SUDO: 
+    BDOP.append(x)
 
 print("Bᴏᴏᴛɪɴɢ...")
 
@@ -77,6 +79,7 @@ print("Lᴏᴀᴅɪɴɢ Lᴇᴀᴠᴇ...")
 
 @TeamxD.on(events.NewMessage(pattern="^!leave"))
 async def _(e):
+      if e.sender_id in BDOP:
         userchat = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = userchat[0]
@@ -103,6 +106,7 @@ print("Lᴏᴀᴅɪɴɢ Rᴇsᴛᴀʀᴛ...")
 
 @TeamxD.on(events.NewMessage(pattern="^!restart"))
 async def restart(e):
+      if e.sender_id in BDOP:
         text = "__Rᴇsᴛᴀʀᴛɪɴɢ__ , Tɪᴍᴇ ɪᴢᴢ ᴜᴘ !!"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
