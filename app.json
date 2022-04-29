@@ -40,11 +40,6 @@
             "description": "Get from https://my.telegram.org",
             "value": "",
             "required": true
-        },
-        "OWNER_ID": {
-            "description": "Owner id here.",
-            "value": "",
-            "required": true
         }
     }
 }
