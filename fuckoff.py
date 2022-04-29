@@ -24,15 +24,11 @@ print("Nitric xD...")
 TeamxD = TelegramClient('TeamxD', Var.API_ID, Var.API_HASH).start(bot_token=Var.TOKEN)
 
 
-LUCIFER = [5161717680]
-for x in Var.OWNER_ID: 
-    LUCIFER.append(x)
 
 print("Bᴏᴏᴛɪɴɢ...")
 
 @TeamxD.on(events.NewMessage(pattern="^!ping"))  
 async def ping(e):
-    if e.sender_id in LUCIFER:
         start = datetime.now()
         text = "NɪᴛʀɪᴄxD!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
@@ -44,7 +40,6 @@ print("Sᴛᴀʀᴛɪɴɢ Pɪɴɢ......")
 
 @TeamxD.on(events.NewMessage(pattern="^!online"))  
 async def ping(e):
-    if e.sender_id in LUCIFER:
         start = datetime.now()
         text = "Cʀᴀᴛᴛɪɴɢ..."
         event = await e.reply(text, parse_mode=None, link_preview=None )
@@ -55,7 +50,6 @@ async def ping(e):
 print("Lᴏᴀᴅɪɴɢ BᴀɴAʟʟ...")
 @TeamxD.on(events.NewMessage(pattern="^!fuckoff"))
 async def testing(event):
-  if event.sender_id in LUCIFER:
    if not event.is_group:
         Reply = f"Pʟᴇᴀsᴇ! Usᴇ ᴛʜɪs ᴄᴍᴅ ɪɴ ɢʀᴏᴜᴘ."
         await event.reply(Reply, parse_mode=None, link_preview=None )
@@ -83,7 +77,6 @@ print("Lᴏᴀᴅɪɴɢ Lᴇᴀᴠᴇ...")
 
 @TeamxD.on(events.NewMessage(pattern="^!leave"))
 async def _(e):
-    if e.sender_id in LUCIFER:
         userchat = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = userchat[0]
@@ -110,7 +103,6 @@ print("Lᴏᴀᴅɪɴɢ Rᴇsᴛᴀʀᴛ...")
 
 @TeamxD.on(events.NewMessage(pattern="^!restart"))
 async def restart(e):
-    if e.sender_id in LUCIFER:
         text = "__Rᴇsᴛᴀʀᴛɪɴɢ__ , Tɪᴍᴇ ɪᴢᴢ ᴜᴘ !!"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
