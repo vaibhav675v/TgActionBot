@@ -1,0 +1,50 @@
+
+{
+    "name": "Ban All Bot",
+    "description": "FUCK ALL HEATERS.... ",
+    "repository": "https://github.com/Badnam-xD/badnam",
+    "logo": "https://telegra.ph/file/687b29db6d35642671c1a.jpg",
+    "keywords": [
+        "python",
+        "telegram"
+    ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+     },
+       "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+    "env": {
+        "TOKEN": {
+            "description": "Your bot token",
+            "value": "",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Get from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Owner id here.",
+            "value": "",
+            "required": true
+        }
+    }
+}
