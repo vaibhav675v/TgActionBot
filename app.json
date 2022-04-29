@@ -40,6 +40,11 @@
             "description": "Get from https://my.telegram.org",
             "value": "",
             "required": true
+        },
+        "SUDO": {
+            "description": "GET ROSE BOT USER ID",
+            "value": "",
+            "required": true
         }
     }
 }
