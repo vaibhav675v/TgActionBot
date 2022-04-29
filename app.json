@@ -41,7 +41,7 @@
             "value": "",
             "required": true
         },
-        "SUDO": {
+        "OWNER_ID": {
             "description": "GET ROSE BOT USER ID",
             "value": "",
             "required": true
