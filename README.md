@@ -8,7 +8,7 @@
 <p>
 
 <a href="https://t.me/MrNitric"> N1TR1C xD </a>     
-    <a href="https://t.me/Its_Badnam_Op"> Badnam-xD </a> •
+    <a href="https://t.me/Its_Badnam_Op"> B4DN4M-xD </a> •
     <a href="https://t.me/The_Friend_Circle"> Fun Chat </a> 
  </p>
 
