@@ -144,7 +144,7 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴛɪᴏɴ ʙᴏᴛ's ᴍ�
 #help
 @TeamxD.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Telegram Action Bot's Help Menu**\n\nCommands:\n\n `!ping` - Check Ping Status Bot.. \n\n `!online` - For Check Bot Alive Or Not. \n\n `!fuckoff` - For Ban All Members In Group.\n\n `!leave` - For Leave Chat Group From Bot.\n\n `!restart` - For Restart Your Bot."
+  helptext = "**Telegram Action Bot's Help Menu**\n\n**Commands:**\n\n `!ping` - Check Ping Status Bot.. \n\n `!online` - For Check Bot Alive Or Not. \n\n `!fuckoff` - For Ban All Members In Group.\n\n **Owner Commands:**\n\n `!leave` - For Leave Chat Group From Bot.\n\n `!restart` - For Restart Your Bot."
   await event.reply(helptext,
                     buttons=(
                       [
