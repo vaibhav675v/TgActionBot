@@ -135,7 +135,7 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴛɪᴏɴ ʙᴏᴛ's ᴍ�
                          Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/XCodeSupport'), 
                       ], 
                       [
-                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionFiveRobot?startgroup=true'),   
+                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionRobot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -152,7 +152,7 @@ async def help(event):
                          Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/XCodeSupport'), 
                       ], 
                       [
-                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionFiveRobot?startgroup=true'),   
+                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionRobot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
