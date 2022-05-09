@@ -125,17 +125,17 @@ async def start(event):
 *Hᴇʏ !!,*
 Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴛɪᴏɴ ʙᴏᴛ's ᴍᴇɴᴜ. \n I ᴄᴀɴ ʙᴀɴ ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-‣ Managed By - @MrNitric ❥︎
+‣ Managed By - @XeD_NitriC ❥︎
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Nᴇᴇᴅ Hᴇʟᴘ /help ××
 """,
     buttons=(
                       [
-                         Button.url('📣 ᴜᴘᴅᴀᴛᴇs', 'https://t.me/Sanki_BOTs'), 
-                         Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/The_Friend_Circle'), 
+                         Button.url('📣 ᴜᴘᴅᴀᴛᴇs', 'https://t.me/TheXCodeTeam'), 
+                         Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/XCodeSupport'), 
                       ], 
                       [
-                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionBot?startgroup=true'),   
+                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionRobot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -148,17 +148,17 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 ᴜᴘᴅᴀᴛᴇs', 'https://t.me/Sanki_BOTs'), 
-                         Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/The_Friend_Circle'), 
+                         Button.url('📣 ᴜᴘᴅᴀᴛᴇs', 'https://t.me/TheXCodeTeam'), 
+                         Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/XCodeSupport'), 
                       ], 
                       [
-                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionBot?startgroup=true'),   
+                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionRobot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
                    )
 
 print("\n\n")
-print("Bᴏᴛ Dᴇᴘʟᴏʏᴍᴇɴᴛ Sᴜᴄᴄᴇss!! Iғ Aɴʏ Pʀᴏʙʟᴇᴍ Fᴀᴄɪɴɢ Tʜᴇɴ Cᴏɴᴛᴀᴄᴛ @MrNitric")
+print("Bᴏᴛ Dᴇᴘʟᴏʏᴍᴇɴᴛ Sᴜᴄᴄᴇss!! Iғ Aɴʏ Pʀᴏʙʟᴇᴍ Fᴀᴄɪɴɢ Tʜᴇɴ Cᴏɴᴛᴀᴄᴛ @XeD_NitriC")
 
 TeamxD.run_until_disconnected()
