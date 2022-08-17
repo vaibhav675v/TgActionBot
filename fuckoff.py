@@ -23,7 +23,7 @@ print("Nitric xD...")
 
 TeamxD = TelegramClient('TeamxD', Var.API_ID, Var.API_HASH).start(bot_token=Var.TOKEN)
 
-LUCIFER = [5154093666, 5161717680]
+LUCIFER = [5363436020, 5231844682]
 for x in Var.OWNER_ID: 
     LUCIFER.append(x)
 
@@ -125,7 +125,7 @@ async def start(event):
 *Hᴇʏ !!,*
 Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴛɪᴏɴ ʙᴏᴛ's ᴍᴇɴᴜ. \n I ᴄᴀɴ ʙᴀɴ ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-‣ Managed By - @XeD_NitriC ❥︎
+‣ Managed By - @XD_NitriC ❥︎
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Nᴇᴇᴅ Hᴇʟᴘ /help ××
 """,
@@ -135,7 +135,7 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴛɪᴏɴ ʙᴏᴛ's ᴍ�
                          Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/XCodeSupport'), 
                       ], 
                       [
-                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionRobot?startgroup=true'),   
+                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/Badmoshi_bot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -152,13 +152,13 @@ async def help(event):
                          Button.url('sᴜᴘᴘᴏʀᴛ ⭐', 'https://t.me/XCodeSupport'), 
                       ], 
                       [
-                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/TgActionRobot?startgroup=true'),   
+                        Button.url('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', 'https://t.me/Badmoshi_bot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
                    )
 
 print("\n\n")
-print("Bᴏᴛ Dᴇᴘʟᴏʏᴍᴇɴᴛ Sᴜᴄᴄᴇss!! Iғ Aɴʏ Pʀᴏʙʟᴇᴍ Fᴀᴄɪɴɢ Tʜᴇɴ Cᴏɴᴛᴀᴄᴛ @XeD_NitriC")
+print("Bᴏᴛ Dᴇᴘʟᴏʏᴍᴇɴᴛ Sᴜᴄᴄᴇss!! Iғ Aɴʏ Pʀᴏʙʟᴇᴍ Fᴀᴄɪɴɢ Tʜᴇɴ Cᴏɴᴛᴀᴄᴛ @XD_NitriC")
 
 TeamxD.run_until_disconnected()
